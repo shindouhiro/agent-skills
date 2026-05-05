@@ -1,0 +1,4 @@
+interface:
+  display_name: "Vue 前端工程化"
+  short_description: "Vue 3、Vue Router、测试与界面规范。"
+  default_prompt: "使用 Vue 前端工程化 skill 初始化、改造或审核 Vue 项目。"
