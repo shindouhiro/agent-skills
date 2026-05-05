@@ -1,0 +1,4 @@
+interface:
+  display_name: "前端工程化"
+  short_description: "React、Vue、Angular 前端工程化规范。"
+  default_prompt: "使用前端工程化 skill 初始化或改造 React、Vue、Angular 项目。"
