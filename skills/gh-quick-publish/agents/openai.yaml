@@ -1,0 +1,4 @@
+interface:
+  display_name: "GH Quick Publish"
+  short_description: "用 gh-cli 快速创建项目并发布到 GitHub"
+  default_prompt: "Use $gh-quick-publish to create a GitHub repository, commit the current project, push it, and open a draft pull request."
