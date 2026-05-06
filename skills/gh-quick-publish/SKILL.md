@@ -39,18 +39,18 @@ git remote -v
 
 4. 创建或关联 GitHub 仓库：
 
-如果用户没有指定可见性，默认创建私有仓库，除非当前组织规则或用户上下文明确要求公开。
+如果用户没有指定可见性，默认创建公开仓库，除非当前组织规则或用户上下文明确要求私有。
 
 新建并推送当前目录：
 
 ```bash
-gh repo create <owner>/<repo> --private --source=. --remote=origin --push
+gh repo create <owner>/<repo> --public --source=. --remote=origin --push
 ```
 
 仅创建远端仓库，稍后手动推送：
 
 ```bash
-gh repo create <owner>/<repo> --private
+gh repo create <owner>/<repo> --public
 git remote add origin git@github.com:<owner>/<repo>.git
 git push -u origin main
 ```
@@ -97,7 +97,7 @@ PR body 保持简洁，包含：
 - 仓库名优先来自用户；否则从目录名生成小写 kebab-case 名称。
 - owner 优先来自用户；否则使用 `gh api user --jq .login` 获取当前登录用户。
 - 默认分支优先使用现有分支；新仓库默认 `main`。
-- 默认私有仓库，除非用户明确要求 public。
+- 默认公开仓库，除非用户明确要求 private。
 - 不提交密钥、token、`.env`、私有证书、大型构建产物或依赖目录。
 - 不使用 `git reset --hard`、`git clean -fd`、`git checkout -- <file>` 等破坏性命令，除非用户明确要求。
 
