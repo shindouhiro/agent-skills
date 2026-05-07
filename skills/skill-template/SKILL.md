@@ -1,5 +1,5 @@
 ---
-name: your-skill-name
+name: skill-template
 description: Concise capability and trigger description. Use when the user asks for <task/domain>, mentions <tool/framework/file type>, or needs <workflow outcome>. Include all important trigger phrases because Codex only sees this metadata before loading the skill body.
 metadata:
   author: Your Name
