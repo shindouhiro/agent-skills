@@ -1,0 +1,7 @@
+# UI 元数据用于 skill 列表和快捷入口；保持与 SKILL.md 的能力描述一致。
+display_name: Your Skill Name
+short_description: One short human-facing sentence describing what this skill helps with.
+default_prompt: >-
+  Use this skill to handle <task/domain>. Inspect the project context first,
+  load only the relevant references, follow the documented workflow, and
+  report the validation performed.
