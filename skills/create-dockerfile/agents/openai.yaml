@@ -1,0 +1,4 @@
+interface:
+  display_name: "Create Dockerfile"
+  short_description: "为 Node.js/Next.js/Vite 应用创建生产级 Dockerfile。"
+  default_prompt: "使用 create-dockerfile skill 为当前项目创建 Dockerfile 和 .dockerignore。"

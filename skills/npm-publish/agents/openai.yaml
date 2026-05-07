@@ -1,0 +1,4 @@
+interface:
+  display_name: "NPM 发布"
+  short_description: "配置 NPM 正式发布与预览发布 CI/CD 流水线。"
+  default_prompt: "使用 npm-publish skill 为当前库项目配置完整的 NPM 发布流程。"

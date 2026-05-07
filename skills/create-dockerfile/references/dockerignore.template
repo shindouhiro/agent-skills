@@ -1,0 +1,42 @@
+# 依赖与包管理
+node_modules
+.pnpm-store
+pnpm-debug.log*
+
+# 构建产物
+dist
+.next
+.nuxt
+.output
+build
+
+# 版本控制
+.git
+.gitignore
+
+# 环境与密钥
+.env
+.env.*
+!.env.example
+
+# IDE 与系统
+.vscode
+.idea
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# 测试与文档
+coverage
+__tests__
+*.test.*
+*.spec.*
+docs
+README.md
+LICENSE
+
+# Docker
+Dockerfile
+docker-compose*.yml
+.dockerignore
