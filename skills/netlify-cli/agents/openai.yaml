@@ -1,0 +1,4 @@
+interface:
+  display_name: "Netlify CLI"
+  short_description: "Netlify CLI deploy and env workflows"
+  default_prompt: "Use $netlify-cli to link, configure, test, and deploy this project with the Netlify CLI."
